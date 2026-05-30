@@ -1,0 +1,13 @@
+agent_id,call_outcome,outcome_count
+A02,connected,15
+A02,callback_requested,14
+A02,dropped,11
+A02,no_answer,9
+A04,callback_requested,16
+A04,no_answer,15
+A04,dropped,13
+A04,connected,9
+A10,no_answer,13
+A10,dropped,12
+A10,callback_requested,12
+A10,connected,11
