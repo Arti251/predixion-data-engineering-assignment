@@ -1,0 +1,430 @@
+[
+    {
+        "call_id": "C0018",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0038",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0039",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0045",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0046",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0048",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0052",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0055",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0083",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0094",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0098",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0104",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0112",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0116",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0128",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0133",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0134",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0135",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0138",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0147",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0151",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0161",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0178",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0181",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0182",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0185",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0190",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0196",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0208",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0209",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0212",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0225",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0229",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0233",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0242",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0244",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0247",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0256",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0261",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0265",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0266",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0282",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0289",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0294",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0295",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0312",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0315",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0328",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0336",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0345",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0346",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0347",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0349",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0350",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0356",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0359",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0365",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0371",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0372",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0378",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0383",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0388",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0395",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0400",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0403",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0410",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0411",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0412",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0417",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0422",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0449",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0458",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0460",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0466",
+        "reason": "bad_timestamp"
+    },
+    {
+        "call_id": "C0469",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0471",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0477",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0485",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0493",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0494",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0495",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0500",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0378",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0103",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0121",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0377",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0124",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0447",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0136",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0106",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0118",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0104",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0428",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0128",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0429",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0317",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0183",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0080",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0399",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0055",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0062",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0472",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0041",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0347",
+        "reason": "missing_field"
+    },
+    {
+        "call_id": "C0490",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0340",
+        "reason": "duplicate"
+    },
+    {
+        "call_id": "C0253",
+        "reason": "duplicate"
+    }
+]
