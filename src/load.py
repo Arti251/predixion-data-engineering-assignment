@@ -1,68 +1,49 @@
+import sqlite3
 import pandas as pd
-
-
-def duration_bucket(seconds):
-    if seconds < 60:
-        return "short"
-    elif seconds <= 300:
-        return "medium"
-    else:
-        return "long"
+from datetime import datetime
 
 
 def main():
 
-    df = pd.read_csv("data/valid_records.csv")
+    # Read transformed data
+    df = pd.read_csv("data/transformed_calls.csv")
 
-    # Convert timestamps
-    df["start_time"] = pd.to_datetime(df["start_time"])
-    df["end_time"] = pd.to_datetime(df["end_time"])
+    # Connect to SQLite
+    conn = sqlite3.connect("call_data.db")
 
-    # Deduplicate
-    df = (
-        df.sort_values("start_time")
-          .drop_duplicates(subset="call_id", keep="last")
-    )
-
-    # Duration
-    df["call_duration_seconds"] = (
-        df["end_time"] - df["start_time"]
-    ).dt.total_seconds()
-
-    # Derived fields
-    df["call_hour"] = df["start_time"].dt.hour
-
-    df["call_date"] = df["start_time"].dt.date
-
-    df["is_weekend"] = (
-        df["start_time"].dt.dayofweek >= 5
-    )
-
-    # Amount imputation
-    df["is_amount_imputed"] = (
-        df["amount_promised"].isna()
-    )
-
-    df["amount_promised"] = (
-        df["amount_promised"].fillna(0)
-    )
-
-    # Duration bucket
-    df["duration_bucket"] = (
-        df["call_duration_seconds"]
-        .apply(duration_bucket)
-    )
-
-    # Save transformed data
-    df.to_csv(
-        "data/transformed_calls.csv",
+    # Load calls table
+    df.to_sql(
+        "calls",
+        conn,
+        if_exists="replace",
         index=False
     )
 
-    print("\nTRANSFORMATION COMPLETE")
+    # Create ingestion log
+    ingestion_log = pd.DataFrame([
+        {
+            "run_timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "records_processed": len(df),
+            "rejected_count": len(pd.read_csv("data/rejected_log.csv"))
+        }
+    ])
+
+    ingestion_log.to_sql(
+        "ingestion_log",
+        conn,
+        if_exists="replace",
+        index=False
+    )
+
+    conn.close()
+
+    print("\nLOAD COMPLETE")
     print("-" * 40)
-    print(f"Records after transformation: {len(df)}")
-    print("Output: data/transformed_calls.csv")
+    print(f"Records loaded: {len(df)}")
+    print("Database: call_data.db")
+    print("Tables created:")
+    print("- calls")
+    print("- ingestion_log")
 
 
 if __name__ == "__main__":
